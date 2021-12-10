@@ -8480,6 +8480,8 @@ h1, h2, h3, h4, h5,
               .owl-carousel.home-slider .slider-item .slider-text .one-third:after {
                 opacity: 0; } }
         .owl-carousel.home-slider .slider-item .slider-text .one-forth {
+          overflow: scroll;
+          -webkit-overflow-scrolling: touch;
           width: 50%;
           position: relative; }
           @media (min-width: 768px) {
